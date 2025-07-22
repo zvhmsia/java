@@ -134,7 +134,6 @@ public class OldMaid extends Trump5{
         else{
             card_num = rand.nextInt(next_player.size());
         }
-        stdIn.close();
         current_player.add(next_player.get(card_num));
         next_player.remove(card_num);
         if(next_player.size()==0){
